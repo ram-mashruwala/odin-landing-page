@@ -68,12 +68,19 @@ div {
 	border: solid;
 	border-color: #3882F6;
 	border-radius: 10px;
+	text-wrap: nowrap;
+	transition: all 0.15s;
 }
 
 .title button:hover {
 	cursor: pointer;
+	background-color: #1F2937;
+	color: #3882F6;
 }
 
+.title button:active {
+	opacity: 70%;
+}
 
 .title div {
 	padding: 0px;
@@ -223,6 +230,17 @@ div {
 	font-size: 24px;
 	border-radius: 10px;
 	font-weight: 700;
+	text-wrap: nowrap;
+	transition: all 0.15s;
+}
+
+.call-to-action .button-holder button:hover {
+	color: #3882F6;
+	background-color: #F9FAF8;
+}
+
+.call-to-action .button-holder button:active {
+	opacity: 0.7;
 }
 
 .footer {
